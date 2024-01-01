@@ -1,0 +1,68 @@
+.aboutmain {
+    display: flex;
+
+    /* height: 88vh; */
+    /* width: 100%; */
+    gap: 20px;
+    /* justify-content: center;
+align-items: center; */
+    padding: 50px;
+}
+.bgimgabout{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMiQENCi9hMJQSD0up1poMd-QhRtrFpoV1w&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover; */
+background-color: whitesmoke;
+}
+.somewords {
+    width: 50%;
+}
+.aboutinfo {
+    width: 50%;
+}
+.somewords h3 {
+    color: rgba(163, 4, 4, 0.844);
+}
+
+.somewords h2 {
+    color: rgba(0, 0, 0, 0.844);
+   
+}
+.who{
+    padding: 70px;
+}
+.us{
+    display: flex;
+}
+.us img{
+    padding-left: 150px;
+    height: 400px;
+    width: 1500px;
+}
+.ourself{
+    padding: 50px;
+    font-size: 20px;
+}
+.mentor h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.teacher{
+display: flex;
+}
+.teacher img{
+    height: 300px;
+    width: 2400px;
+    padding-left: 150px;
+    padding-bottom: 15px;
+}
+.mentor{
+    margin: 60px;
+}
+.aboutinfo h3{
+    font-size: 20px;
+}
+.aboutinfo p{
+    font-size: 20px;
+}

@@ -1,0 +1,229 @@
+/* .container {
+    background-image: url("https://us.123rf.com/450wm/cienpies/cienpies1803/cienpies180300222/97357724-russia-symbol-decoration-background-in-red-color-traditional-russian-culture-and-sport-elements.jpg?ver=6");
+   background-color: red;
+    height: 75vh;
+    width: 100vw;
+    opacity: 0.9;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+  
+} */
+*{
+   
+    box-sizing: border-box;
+  
+}
+.container {
+    /* background-image: url("https://us.123rf.com/450wm/cienpies/cienpies1803/cienpies180300222/97357724-russia-symbol-decoration-background-in-red-color-traditional-russian-culture-and-sport-elements.jpg?ver=6"); */
+   /* background-color: red; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/005/561/037/non_2x/traditional-indian-sweets-on-rustic-background-flat-lay-photo.jpg");
+    height: 75vh;
+    /* width: 100vw; */
+    opacity: 0.9;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 60px;
+    padding-top: 20px;
+  
+}
+.container h4{
+    font-family: 'Kaushan Script', cursive;
+   font-size: larger;
+    
+}
+.Rbox {
+    display: flex;
+    /* width: 100vw; */
+   position: relative;
+   height: 250px;   
+   margin: 60px; 
+   justify-content: space-evenly;
+}
+.belief {
+    text-align: left;
+    /* margin: 10px;
+    /* background-color:rgba(255, 146, 146, 0.421); */
+    background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTZPjU1OtQrbpevjdfpT6qmI6sruoK4ap35vrL4hE9LvGguec4"); 
+    padding: 20px; 
+     opacity: 0.6;
+     background-repeat: no-repeat;
+     /* border: 3px solid rgb(226, 11, 11); */
+    background-size: cover;
+     
+}
+
+.values {
+    text-align: left;
+    /* margin: 10px;
+    /* border: 3px solid brown; */
+    padding: 20px; 
+    background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnWLd0jwJ-pGk8DDAMqK3oLz5nhTfrBdYBBiRavsuZ48SRr9wB");
+    background-size: cover;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    
+}
+.team {
+    text-align: left;
+    /* margin: 10px;
+    /* border: 3px solid brown; */
+    padding: 20px; 
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0M-P9NOWeal7mjqpBCM_UT41oYKdsoN2ar-L6GXhVi6ucUy3");
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.infra {
+    text-align: left;
+    /* margin: 10px;
+    /* border: 3px solid brown; */
+    padding: 20px;
+    background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnZ6Adrn--zcm7GYt3ly2Ks64GoVNONaYRGhnl59pQFg_KfBu3");
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infra p{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 0;
+    font-size: larger;
+} 
+.belief p{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 0;
+    font-size: larger;
+} 
+.team p{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 0;
+    font-size: larger;
+} 
+.values p{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 0;
+    font-size: larger;
+} 
+
+.heading {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+.heading h2 {
+    font-size: 30px;
+    color: brown;
+    font-family: 'Acme', sans-serif;
+   
+}
+.heading p{
+    padding: 5px;
+}
+.member {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.OurTeam {
+    max-width: 100%;
+    margin: 5px;
+}
+.m1 {
+    
+    margin: 10px;   
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: 0.5s ease;
+   height: 250px;
+   width: 400px;
+}
+.m1 img {
+   height: 60%;
+   width: 30%;
+   border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.m1 h2 {
+    color: brown;
+    font-family: 'Chakra Petch', sans-serif;
+  
+   text-align: center;
+}
+.m1 p{
+    padding: 30px;
+  
+    text-align: center;
+}
+.m1:hover {
+   
+    transform: translateY(-5px);
+}
+
+#homevedio video{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+#content_onvedio{
+top: 0%;
+position: absolute;
+top: 130%;
+left: 40%;
+color: rgb(0, 0, 0);
+}
+
+.Video {
+    margin-top: 60px;
+ 
+   /* height: 700px; */
+   object-fit: cover;
+}
+
+#content_onvedio h2{
+    font-weight: bolder;
+    font-family:Agbalumo;
+  
+}
+#content_onvedio button{
+border-radius: 20px;
+margin: 5px;
+margin-left: 65px;
+
+} 
+#content_onvedio button:hover{
+    background-color:gray;
+}
+#content_onvedio button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#content_onvedio button a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.collection{
+    display: flex;
+    margin-top: 60px;
+}

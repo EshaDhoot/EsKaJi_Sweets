@@ -1,0 +1,89 @@
+.contactus {
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.checke {
+    width: 50%;
+}
+.checke p{
+    padding: 30px;
+    font-size: 20px;
+}
+#contactbtn {
+    border-radius: 15px;
+    padding: 10px 25px;
+
+}
+.submitname {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+
+}
+
+#submitMain {
+    display: flex;
+    height: 88vh;
+    width: 100%;
+    padding: 5px;
+    gap: 10px;
+
+
+}
+
+.submiticon {
+    font-size: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.iconlast {
+    display: flex;
+    padding: 5px;
+}
+
+#contactitems {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.292);
+
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.inputContainer label{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 5px;
+    color: black;
+    font-weight: 500;
+    
+
+}
+.inputContainer input{
+    width: 70%;
+    border: 1px solid black;
+    outline-color: rgb(10, 149, 102);
+}   
+.inputContainer textarea{
+    width: 70%;
+    height: 100px;
+    resize: vertical;
+    border-radius: 10px;
+    outline-color: rgb(10, 149, 102);
+
+}
+#submiticon1 {
+    font-size: 40px;
+    padding: 10px;
+}

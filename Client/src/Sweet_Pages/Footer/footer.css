@@ -1,0 +1,41 @@
+#footerIcon img{
+    height: 110px;
+    width: 225px;
+    padding: 25px;
+    padding-left: 50px;
+    
+}
+
+#footerIcon{
+    
+    padding: 30px;
+}
+#footerLinks{
+    display: flex;
+    padding: 20px;
+}
+.footernav{
+    padding: 50px;
+}
+.footernav img {
+    height: 200px;
+    width: 200px;
+}
+.footerdetails{
+display: flex;
+padding: 5px;
+gap: 10px;
+font-weight: 500;
+font-size: 20px ;
+height: 50px;
+color: rgba(128, 128, 128, 0.959);
+}
+
+.footerdetails h5 a{
+    color:rgba(128, 128, 128, 0.959);
+    text-decoration: none;
+}
+.footernav h3 {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
