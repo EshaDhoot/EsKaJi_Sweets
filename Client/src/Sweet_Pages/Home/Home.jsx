@@ -57,14 +57,14 @@ const Home = () => {
 
 
 
-      <div className='collection'>
+       {/* <div className='collection'>
           <div><img src="https://www.sweedesi.com/cdn/shop/files/International-PhotoRoom_1.png?v=1703068873&width=240" alt="" /></div>
           <div><img src="https://www.sweedesi.com/cdn/shop/files/211-2115785_india-map-png-photo-3d-map-of-india-PhotoRoom_2.png?v=1703071216&width=240" alt="" /></div>
           <div><img src="https://www.sweedesi.com/cdn/shop/files/My-project-15.jpg?v=1700028764&width=240" alt="" /></div>
           <div><img src="https://www.sweedesi.com/cdn/shop/products/fusion-laddu-box-sweedesi-453246.jpg?v=1687958996&width=240" alt="" /></div>
           <div><img src="https://www.sweedesi.com/cdn/shop/collections/mukhwas-digestive-712658.jpg?v=1674301409&width=240" alt="" /></div>
           <div><img src="https://www.sweedesi.com/cdn/shop/files/20230627_120208.jpg?v=1688033523&width=240" alt="" /></div>
-      </div>
+      </div>  */}
 
 
       <div className='Rbox'>

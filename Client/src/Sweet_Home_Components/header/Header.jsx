@@ -2,7 +2,7 @@ import React from 'react'
 import "./header.css"
 import { Link } from 'react-router-dom'
 import pic from "./logo1.png"
-import Form from '../Form'
+
 const Header = () => {
   return (
     <div className='header'>
